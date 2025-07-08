@@ -1,0 +1,15 @@
+{
+  "privilegedGroups": [
+    "Domain Admins",
+    "Enterprise Admins",
+    "Schema Admins",
+    "Administrators"
+  ],
+  "staleAccountThresholdDays": 90,
+  "kerberoastableSPNKeywords": [
+    "MSSQLSvc",
+    "HTTP",
+    "cifs"
+  ],
+  "reportOutputPath": ".\\Reports\\"
+} 
