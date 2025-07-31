@@ -5,7 +5,8 @@ Ultimate PowerShell AD Security Tool
 ## Overview
 AD-Guardian is a modular, extensible PowerShell toolkit for auditing and remediating Active Directory security issues. It features a professional HTML reporting engine, interactive remediation, and is easy to extend with new modules.
 
-![AD-Guardian Script Flow](./assets/ad-guardian-script.png)
+![](/assets/ad-guardian-script.png)
+
 
 ## Features
 - Modular audit and remediation modules
