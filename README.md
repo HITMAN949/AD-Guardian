@@ -39,7 +39,13 @@ config.json
    .\AD-Guardian.ps1
    ```
 4. Follow the interactive menu to run audits or remediation.
+## Report
 
+After running audits or remediation, **AD-Guardian** generates a professional HTML report summarizing the findings and any actions performed.  
+By default, the report files are saved in the `/Reports` directory inside the project folder.  
+
+Open the generated `.html` file in any modern web browser to review the detailed results and export the report for documentation or sharing.
+![AD-Guardian HTML Report Screenshot](./assets/ad-guardian-html-report.png)
 ## Extending
 - Add new audit modules to `/modules/audits/`.
 - Add new remediation modules to `/modules/remediation/`.
